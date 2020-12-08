@@ -1,0 +1,25 @@
+{
+  "name": "with-storybook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 6006"
+  },
+  "dependencies": {
+    "next": "^10.0.3",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "styled-components": "^5.2.1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@storybook/addon-a11y": "^6.1.10",
+    "@storybook/addon-actions": "^6.0.26",
+    "@storybook/addon-links": "^6.0.26",
+    "@storybook/addons": "^6.0.26",
+    "@storybook/react": "^6.0.26",
+    "babel-loader": "^8.1.0"
+  }
+}
