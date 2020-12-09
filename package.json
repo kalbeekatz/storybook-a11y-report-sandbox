@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006",
+    "a11y-report": "storybook-a11y-report"
   },
   "dependencies": {
     "next": "^10.0.3",
@@ -20,6 +21,7 @@
     "@storybook/addon-links": "^6.0.26",
     "@storybook/addons": "^6.0.26",
     "@storybook/react": "^6.0.26",
-    "babel-loader": "^8.1.0"
+    "babel-loader": "^8.1.0",
+    "storybook-a11y-report": "0.0.7"
   }
 }
