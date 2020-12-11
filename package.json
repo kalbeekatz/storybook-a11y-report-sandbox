@@ -22,6 +22,6 @@
     "@storybook/addons": "^6.0.26",
     "@storybook/react": "^6.0.26",
     "babel-loader": "^8.1.0",
-    "storybook-a11y-report": "0.0.7"
+    "storybook-a11y-report": "0.0.8"
   }
 }
